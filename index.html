@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт про Terraria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Block&family=Homenaje&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container__header">
+            <img src="img/logo.png" width="100px">
+            <ul class="header__list">
+                <li class="header__line">
+                    Главная
+                </li>
+                <li class="header__line">
+                    Об игре
+                </li>
+                <li class="header__line">
+                    Видео
+                </li>
+                <li class="header__line">
+                    Галерея
+                </li>
+                <li class="header__line">
+                    Контакты
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container container__hero">
+                <img class="hero__img" src="img/img.png" alt="Плохой интернет. (Terraria)">
+                <div class="ll">
+                    <h1 class="hero__title">Что такое Terraria?</h1>
+                    <p class="hero__paragraph">Terraria – это захватывающая приключенческая песочница, где ты можешь
+                        исследовать бесконечные миры, строить невероятные сооружения, сражаться с опасными монстрами и
+                        находить редкие сокровища. Погрузись в увлекательный процесс создания своего уникального
+                        приключения!</p>
+                    <button class="hero__button">На официальный сайт</button>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container container_about">
+                <h2 class="about__title">
+                    Об игре
+                </h2>
+                <div class="about__info">
+                    <ul class="about__list">
+                        <h3>Показатели рейтинга</h3>
+                        <li class="about__item">
+                            <p class="about__rating">Геймплей</p>
+                            <div class="full">
+                                <div class="fill"></div>
+                            </div>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__rating">Мультиплеер</p>
+                            <div class="full_2">
+                                <div class="fill_2"></div>
+                            </div>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__rating">Босы</p>
+                            <div class="full_3">
+                                <div class="fill_3"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="img/img-group.png">
+
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container container_video">
+                <h2 class="video__title">Видео</h2>
+                <iframe class="video__video" src="https://www.youtube.com/embed/ETm0DrPL_4k"
+                    title="TERRARIA 1.4.3 FULL SOUNDTRACK IN ORDER" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container container__gallery">
+                <h2 class="gallery__title">Галерея</h2>
+                <ul class="gallery__list">
+                    <li class="gallery__item">
+                        <a href="img/img1.png" class="lightzoom"><img class="gallery__img" src="img/img1.png"></a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img2.png" class="lightzoom"><img class="gallery__img" src="img/img2.png"></a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img3.png" class="lightzoom"><img class="gallery__img" src="img/img3.png"></a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img4.png" class="lightzoom"><img class="gallery__img" src="img/img4.png"></a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img5.png" class="lightzoom"><img class="gallery__img" src="img/img5.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container container__footer">
+            <div>
+            <h3 class="footer__title">
+                Terraria
+            </h3>
+            <p class="footer__paragraph">
+                ©2025 Все права защищены
+            </p>
+        </div>
+            <div class="footer__items">
+            <a class="footer__link" href=""><img src="img/telegram.png"></a>
+            <a class="footer__link" href=""><img src="img/vk.png"></a>
+            <a class="footer__link" href=""><img src="img/discord.png"></a>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true});
+        </script>
+</body>
+
+</html>
